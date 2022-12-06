@@ -31,7 +31,7 @@
           <view class="menu-wrapper">
           <scroll-view scroll-y="{{true}}">
               <block wx:for="{{goods}}" wx:key="name">
-                  <view class="menu-item">
+                  <view class="menu-item {{index == catId?'active':''}}">
                       <view class="text">
                           {{item.name}}
                       </view>
@@ -40,7 +40,7 @@
           </scroll-view>
           </view>
           <view class="foods-wrapper">
-          <scroll-view scroll-y="{{true}}">
+          <scroll-view scroll-y="{{true}}" style="height: 100%;">
             <block wx:for="{{goods}}" wx:key="name">
                   <view class="food-list">
                       <view id="order{{index}}" class="title">
@@ -52,6 +52,7 @@
                           <view class="name">
                               {{food.name}}
                           </view>
+                          <image src="{{food.image}}" mode=""/>
                       </view>
                   </view>
               </block>

@@ -1,0 +1,23 @@
+{
+  "name": "tastien",
+  "version": "1.0.0",
+  "description": "- 本项目归塔斯汀所有，只做学习所用，请尊重原厂版权\r - fiddler 抓包工具抓取图片\r - 界面模仿采用markman做标记\r     1. 我们没有设计搞， 如何1:1 还原小程序？\r     2. 拍屏得到小程序截图\r     3. 使用在线大小[转换工具](https://www.gaitubao.com/)，讲图片改成750\r         以后在写wxss的时候，直接量像素就可以写进去， 因为小程序以750rpx作为\r         设计稿标准大小帮我们自动适配，很好用。\r     4. 使用[markman](http://www.getmarkman.com/) 先 标注，在写样式\r         以后呢，上了班就不用了， 有设计师给你标好\r         现在， 还是自己来LOL 吧\r - 项目配置在根目录app.json\r     - 隐藏并定制navigationBar\r         \"navigationStyle\": \"custom\"\r     - 启动定位功能",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JCX2927917567/tastien.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JCX2927917567/tastien/issues"
+  },
+  "homepage": "https://github.com/JCX2927917567/tastien#readme",
+  "dependencies": {
+    "@vant/weapp": "^1.10.8"
+  }
+}
